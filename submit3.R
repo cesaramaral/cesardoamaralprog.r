@@ -1,4 +1,4 @@
-rankhospital <- function(state, outcome, num = "best") {
+rankhospR <- function(state, outcome, num = "best") {
   
   ## Lê dados de resultados
   file_data <- read.csv("outcome-of-care-measures.csv", sep = ",")
